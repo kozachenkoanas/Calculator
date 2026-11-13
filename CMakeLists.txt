@@ -37,3 +37,4 @@ add_custom_command(TARGET calc POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:funcbad> $<TARGET_FILE_DIR:calc>/plugins/
     COMMENT "Копирование плагинов в папку plugins..."
 )
+#change
